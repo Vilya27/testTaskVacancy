@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>test</title>
+</head>
+
+<body>
+    <div id="app">
+        <div class="courses">
+            <img src="icons/Dots.svg" alt="shape icon" class="shape-dots">
+            <img src="icons/Arrows.svg" alt="shape icon" class="shape-arrows">
+            <img src="icons/Semicircle.svg" alt="shape icon" class="shape-semicircle">
+            <div class="title">
+                <h6>Enjoy your studying!</h6>
+                <h1>Our online courses</h1>
+            </div>
+            <div class="search-filter">
+
+                <div class="tabs" id="tabs">
+                    <ul class="filters">
+                        <li class="active"><a data-filter="all">All</a></li>
+                        <li><a data-filter="Marketing">Marketing</a></li>
+                        <li><a data-filter="Management">Management</a></li>
+                        <li><a data-filter="HR & Recruting">HR & Recruting</a></li>
+                        <li><a data-filter="Design">Design</a></li>
+                        <li><a data-filter="Development">Development</a></li>
+                    </ul>
+                </div>
+                <div class="search">
+                    <input type="text" name="search" id="search" class="search__item" placeholder="Search course...">
+                    <img src="icons/Stroke.svg" alt="search icon" class="search__icon">
+                </div>
+            </div>
+            <div class="courses-grid" id="courses-grid">
+            </div>
+            <button class="button">
+                <img src="/icons/Loading.svg" alt="load icon">
+                Load more</button>
+        </div>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
