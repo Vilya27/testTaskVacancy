@@ -41,4 +41,25 @@ export const COURSES = [
         speaker: 'by Dianne Russell',
         image: 'card-images/imageDianneRussell.svg',
     },
+    {
+        badge: 'Development',
+        name: 'Highload Software Architecture',
+        price: 600,
+        speaker: 'by Brooklyn Simmons',
+        image: 'card-images/imageBrooklynSimmons.svg',
+    },
+    {
+        badge: 'HR & Recruting',
+        name: 'Human Resources – Selection and Recruitment',
+        price: 150,
+        speaker: 'by Kathryn Murphy',
+        image: 'card-images/imageKathrynMurphy.svg',
+    },
+    {
+        badge: 'Design',
+        name: 'User Experience. Human-centered Design',
+        price: 240,
+        speaker: 'by Cody Fisher',
+        image: 'card-images/imageCodyFisher.svg',
+    },
 ]
